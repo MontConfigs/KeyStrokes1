@@ -24,7 +24,7 @@ local function createGui(parent)
 	local TextLabel5 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel5["Font"] = Enum.Font.FredokaOne
 	TextLabel5["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel5["Position"] = UDim2.new(0.0245454554, 0, 0.672774851, 0)
+	TextLabel5["Position"] = UDim2.new(0.0261331629, 0, 0.683246076, 0)
 	TextLabel5["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel5["Text"] = "A"
 	TextLabel5["TextSize"] = 30
@@ -41,7 +41,7 @@ local function createGui(parent)
 	local TextLabel8 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel8["Font"] = Enum.Font.FredokaOne
 	TextLabel8["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel8["Position"] = UDim2.new(0.0675032064, 0, 0.672774851, 0)
+	TextLabel8["Position"] = UDim2.new(0.0675032064, 0, 0.683246076, 0)
 	TextLabel8["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel8["Text"] = "S"
 	TextLabel8["TextSize"] = 30
@@ -58,7 +58,7 @@ local function createGui(parent)
 	local TextLabel11 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel11["Font"] = Enum.Font.FredokaOne
 	TextLabel11["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel11["Position"] = UDim2.new(0.110460952, 0, 0.672774851, 0)
+	TextLabel11["Position"] = UDim2.new(0.107710913, 0, 0.683246076, 0)
 	TextLabel11["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel11["Text"] = "D"
 	TextLabel11["TextSize"] = 30
@@ -75,7 +75,7 @@ local function createGui(parent)
 	local TextLabel14 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel14["Font"] = Enum.Font.FredokaOne
 	TextLabel14["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel14["Position"] = UDim2.new(0.0675032064, 0, 0.592931926, 0)
+	TextLabel14["Position"] = UDim2.new(0.0675032064, 0, 0.620418847, 0)
 	TextLabel14["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel14["Text"] = "W"
 	TextLabel14["TextSize"] = 30
@@ -94,11 +94,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.Space then 
+			if input.KeyCode == Enum.KeyCode.Space then -- Only change the background color if the "W" key is pressed
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255)
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) -- Change the background color to dark gray when the "W" key is pressed
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
 				end
 			end
 		end
@@ -122,11 +122,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.A then 
+			if input.KeyCode == Enum.KeyCode.A then -- Only change the background color if the "W" key is pressed
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) -- Change the background color to dark gray when the "W" key is pressed
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
 				end
 			end
 		end
@@ -150,11 +150,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.Space then 
+			if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) -- Change the background color to dark gray when the "W" key is pressed
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60)
+					textLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
 				end
 			end
 		end
@@ -178,10 +178,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.D then 
+			if input.KeyCode == Enum.KeyCode.D then -- Only change the background color if the "W" key is pressed
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255)
-					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
 				end
 			end
 		end
@@ -205,10 +206,12 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.W then 
+			if input.KeyCode == Enum.KeyCode.W then -- Only change the background color if the "W" key is pressed
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
-					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
+				end
 			end
 		end
 		
