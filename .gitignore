@@ -6,12 +6,12 @@ local function createGui(parent)
 	--TextLabel2--
 	local TextLabel2 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel2["Font"] = Enum.Font.FredokaOne
-	TextLabel2["Size"] = UDim2.new(0, 156, 0, 46)
-	TextLabel2["Position"] = UDim2.new(0.0218181815, 0, 0.828534007, 0)
+	TextLabel2["Size"] = UDim2.new(0, 155, 0, 44)
+	TextLabel2["Position"] = UDim2.new(0.0245454554, 0, 0.746073306, 0)
 	TextLabel2["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel2["Text"] = "-----------"
-	TextLabel2["TextSize"] = 25
-	TextLabel2["BackgroundColor3"] = Color3.new(0.168627, 0.168627, 0.168627)
+	TextLabel2["Text"] = "---------"
+	TextLabel2["TextSize"] = 30
+	TextLabel2["BackgroundColor3"] = Color3.new(0.239216, 0.231373, 0.235294)
 	----TextLabel2----
 	--UICorner3--
 	local UICorner3 = Instance.new("UICorner",TextLabel2)
@@ -24,11 +24,11 @@ local function createGui(parent)
 	local TextLabel5 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel5["Font"] = Enum.Font.FredokaOne
 	TextLabel5["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel5["Position"] = UDim2.new(0.021818174, 0, 0.765706837, 0)
+	TextLabel5["Position"] = UDim2.new(0.0245454554, 0, 0.672774851, 0)
 	TextLabel5["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel5["Text"] = "A"
-	TextLabel5["TextSize"] = 25
-	TextLabel5["BackgroundColor3"] = Color3.new(0.168627, 0.168627, 0.168627)
+	TextLabel5["TextSize"] = 30
+	TextLabel5["BackgroundColor3"] = Color3.new(0.239216, 0.231373, 0.235294)
 	----TextLabel5----
 	--UICorner6--
 	local UICorner6 = Instance.new("UICorner",TextLabel5)
@@ -41,11 +41,11 @@ local function createGui(parent)
 	local TextLabel8 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel8["Font"] = Enum.Font.FredokaOne
 	TextLabel8["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel8["Position"] = UDim2.new(0.0487793386, 0, 0.765706837, 0)
+	TextLabel8["Position"] = UDim2.new(0.0675032064, 0, 0.672774851, 0)
 	TextLabel8["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel8["Text"] = "S"
-	TextLabel8["TextSize"] = 25
-	TextLabel8["BackgroundColor3"] = Color3.new(0.168627, 0.168627, 0.168627)
+	TextLabel8["TextSize"] = 30
+	TextLabel8["BackgroundColor3"] = Color3.new(0.239216, 0.231373, 0.235294)
 	----TextLabel8----
 	--UICorner9--
 	local UICorner9 = Instance.new("UICorner",TextLabel8)
@@ -58,11 +58,11 @@ local function createGui(parent)
 	local TextLabel11 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel11["Font"] = Enum.Font.FredokaOne
 	TextLabel11["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel11["Position"] = UDim2.new(0.0779157653, 0, 0.765706837, 0)
+	TextLabel11["Position"] = UDim2.new(0.110460952, 0, 0.672774851, 0)
 	TextLabel11["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel11["Text"] = "D"
-	TextLabel11["TextSize"] = 25
-	TextLabel11["BackgroundColor3"] = Color3.new(0.168627, 0.168627, 0.168627)
+	TextLabel11["TextSize"] = 30
+	TextLabel11["BackgroundColor3"] = Color3.new(0.239216, 0.231373, 0.235294)
 	----TextLabel11----
 	--UICorner12--
 	local UICorner12 = Instance.new("UICorner",TextLabel11)
@@ -75,11 +75,11 @@ local function createGui(parent)
 	local TextLabel14 = Instance.new("TextLabel",ScreenGui1)
 	TextLabel14["Font"] = Enum.Font.FredokaOne
 	TextLabel14["Size"] = UDim2.new(0, 45, 0, 48)
-	TextLabel14["Position"] = UDim2.new(0.0487793386, 0, 0.702879608, 0)
+	TextLabel14["Position"] = UDim2.new(0.0675032064, 0, 0.592931926, 0)
 	TextLabel14["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel14["Text"] = "W"
-	TextLabel14["TextSize"] = 25
-	TextLabel14["BackgroundColor3"] = Color3.new(0.168627, 0.168627, 0.168627)
+	TextLabel14["TextSize"] = 30
+	TextLabel14["BackgroundColor3"] = Color3.new(0.239216, 0.231373, 0.235294)
 	----TextLabel14----
 	--UICorner15--
 	local UICorner15 = Instance.new("UICorner",TextLabel14)
@@ -94,11 +94,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.Space then
+			if input.KeyCode == Enum.KeyCode.Space then 
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255)
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
 				end
 			end
 		end
@@ -122,11 +122,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.A then
+			if input.KeyCode == Enum.KeyCode.A then 
 				if isKeyDown then
 					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
 				end
 			end
 		end
@@ -150,11 +150,11 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.S then 
+			if input.KeyCode == Enum.KeyCode.Space then 
 				if isKeyDown then
 					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
 				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60)
 				end
 			end
 		end
@@ -181,8 +181,7 @@ local function createGui(parent)
 			if input.KeyCode == Enum.KeyCode.D then 
 				if isKeyDown then
 					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255)
-				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
 				end
 			end
 		end
@@ -206,12 +205,10 @@ local function createGui(parent)
 		
 		-- Define a function to handle the keyboard events
 		local function handleKeyEvent(input, isKeyDown)
-			if input.KeyCode == Enum.KeyCode.W then
+			if input.KeyCode == Enum.KeyCode.W then 
 				if isKeyDown then
-					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255)
-				else
-					textLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43) 
-				end
+					textLabel.BackgroundColor3 = Color3.fromRGB(96, 16, 255) 
+					textLabel.BackgroundColor3 = Color3.fromRGB(61, 59, 60) 
 			end
 		end
 		
